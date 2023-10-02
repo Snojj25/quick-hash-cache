@@ -1,0 +1,19 @@
+[package]
+name = "async-chashmap"
+version = "0.1.1"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+# default = ["tokio"] # TODO
+
+[dependencies]
+num_cpus = "1.13.0"
+rand = "0.8"
+tokio = { version = "1", features = ["sync", "macros"] }
+hashbrown = { version = "0.13", features = ["inline-more", "raw"] }
+quanta = "0.9"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
