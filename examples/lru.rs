@@ -11,7 +11,7 @@ async fn main() {
     println!("{:?}", cache.get(&2).await);
 
     let res = cache.evict_many(10, rand::thread_rng()).await;
-
+ 
     assert_eq!(res.len(), 10);
 
     println!("{:?}", res);
