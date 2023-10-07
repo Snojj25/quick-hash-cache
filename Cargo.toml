@@ -3,7 +3,6 @@ name = "quick-hash-cache"
 version = "1.0.1"
 edition = "2018"
 
-
 [features]
 # default = ["tokio"] 
 
