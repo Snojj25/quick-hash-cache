@@ -29,6 +29,7 @@ async fn main() {
 ```
 
 ### Methods
+
 hash_builder,
 hash_and_shard,
 clear,
