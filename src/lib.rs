@@ -334,7 +334,7 @@ where
     */
 
     /// Aggregates all the provided keys and batches together access to the underlying shards,
-    /// reducing locking overhead at the cost of memory to buffer keys/hashes
+    /// reducing locking overhead at the cost of memory to buffer keys/hashes.
     pub async fn batch_read<'a, Q: 'a + ?Sized, I, F>(
         &self,
         keys: I,
