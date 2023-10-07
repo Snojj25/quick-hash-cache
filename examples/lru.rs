@@ -1,4 +1,4 @@
-use async_chashmap::lru::{Evict, LruCache};
+use quick_hash_cache::lru::{Evict, LruCache};
 
 #[tokio::main]
 async fn main() {

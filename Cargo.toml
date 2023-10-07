@@ -1,12 +1,11 @@
 [package]
-name = "async-chashmap"
-version = "0.1.1"
+name = "quick-hash-cache"
+version = "1.0.1"
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [features]
-# default = ["tokio"] # TODO
+# default = ["tokio"] 
 
 [dependencies]
 num_cpus = "1.13.0"

@@ -1,12 +1,12 @@
 # quick-hash-cache
+
 An Async Concurrent Hashmap with LRU
 Build a blazing fast HashMap Cache structure that can be used in for web servers, databases, or other systems with high levels of concurrent access.
 
 ### Example
 
-
 ```rust
-use async_chashmap::lru::{Evict, LruCache};
+use quick_hash_cache::lru::{Evict, LruCache};
 
 #[tokio::main]
 async fn main() {
@@ -51,5 +51,3 @@ get_or_default,
 get_mut_or_default,
 batch_read,
 batch_write
-
-
