@@ -2,6 +2,7 @@
 
 An Async Concurrent Hashmap with LRU
 Build a blazing fast HashMap Cache structure that can be used in for web servers, databases, or other systems with high levels of concurrent access.
+It inproves on the mostly single threaded nature of Redis and supports advanced custom data structures.
 
 ### Example
 
